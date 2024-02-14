@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 import openpyxl
-#!pip install openpyxl
+
 # Function to send email
 def send_email(to_address, to_name, company_name):
     # Your email credentials and SMTP server information
