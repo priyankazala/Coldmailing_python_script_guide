@@ -1,5 +1,4 @@
 import smtplib
-import csv
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
@@ -12,9 +11,7 @@ def send_email(to_address, to_name, company_name):
     smtp_port = 587
     username = ' ' # your email goes here
     password = ' ' # your application password here
-
     
-
    # Create the MIME object
     msg = MIMEMultipart()
     msg['From'] = username
